@@ -26,6 +26,16 @@
 
 --- -->
 
+- Mỗi khi thực hiện bất kì thay đổi nào trong dự án việc đầy tiên cần làm là chạy lệnh " git pull ".
+
+```
+  B1: Kéo dự án về máy.
+  B2: chạy lệnh " git branch " xem có đủ 2 nhánh main/None_Branch.
+  B3: chạy lệnh " git checkout None_Branch " để chuyển sang bộ nhớ của nhóm.
+  B4: vào Source Control ở thanh bên trái và xem tên, vị trí của file theo từng phân công và thực hiện commit từng file theo thứ tự.
+  B5: sau khi commit xong thì chọn Push để đẩy code lên None_Branch.
+```
+
 ## 🛠️ Phân Công Công Việc (5 Thành Viên)
 
 ### 1. Trí Nhàn: Project Setup & Core
