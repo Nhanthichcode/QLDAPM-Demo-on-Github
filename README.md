@@ -1,4 +1,4 @@
-# 📌 Quản Lý Dự Án Phần Mềm
+<!-- # 📌 Quản Lý Dự Án Phần Mềm
 
 Đây là dự án nhằm giúp sinh viên hoặc người mới học **làm quen với Git và GitHub** để dễ dàng quản lý, phát triển và cộng tác trong các dự án phần mềm — đặc biệt là các dự án website trong tương lai.
 
@@ -24,11 +24,21 @@
   - `git branch`, `git checkout`, `git merge`
 - Hiểu cách làm việc với **README**, **.gitignore**, **branch**, **pull request**, v.v.
 
----
+--- -->
+
+- Mỗi khi thực hiện bất kì thay đổi nào trong dự án việc đầy tiên cần làm là chạy lệnh " git pull ".
+
+```
+  B1: Kéo dự án về máy.
+  B2: chạy lệnh " git branch " xem có đủ 2 nhánh main/None_Branch.
+  B3: chạy lệnh " git checkout None_Branch " để chuyển sang bộ nhớ của nhóm.
+  B4: vào Source Control ở thanh bên trái và xem tên, vị trí của file theo từng phân công và thực hiện commit từng file theo thứ tự.
+  B5: sau khi commit xong thì chọn Push để đẩy code lên None_Branch.
+```
 
 ## 🛠️ Phân Công Công Việc (5 Thành Viên)
 
-### 1. Trí Nhàn: Project Setup & Core (12 tệp)
+### 1. Trí Nhàn: Project Setup & Core
 
 _Phụ trách: Thiết lập dự án, cấu hình server, middleware, và layout/trang chủ._
 
@@ -44,7 +54,7 @@ _Phụ trách: Thiết lập dự án, cấu hình server, middleware, và layou
 - `views/error.ejs`
 - `views/huongdan.ejs`
 
-### 2. Khôi Nguyên: Module Authentication & User (9 tệp)
+### 2. Khôi Nguyên: Module Authentication & User
 
 _Phụ trách: Logic và giao diện liên quan đến người dùng (đăng ký, đăng nhập, quản lý)._
 
@@ -58,7 +68,7 @@ _Phụ trách: Logic và giao diện liên quan đến người dùng (đăng k�
 - `views/taikhoan_sua.ejs`
 - `views/taikhoan_cuatoi.ejs`
 
-### 3. Hữu Khang: Module Product Management (13 tệp)
+### 3. Hữu Khang: Module Product Management
 
 _Phụ trách: Logic và giao diện quản lý sản phẩm, hãng, và phân loại._
 
@@ -74,7 +84,7 @@ _Phụ trách: Logic và giao diện quản lý sản phẩm, hãng, và phân l
 - `views/sanpham_sua.ejs`
 - `views/sanpham_chitiet.ejs`
 
-### 4. Thanh Phong: Module Cart & Order (11 tệp)
+### 4. Thanh Phong: Module Cart & Order
 
 _Phụ trách: Quy trình nghiệp vụ (giỏ hàng, thanh toán, hóa đơn)._
 
@@ -88,7 +98,7 @@ _Phụ trách: Quy trình nghiệp vụ (giỏ hàng, thanh toán, hóa đơn)._
 - `views/giohang.ejs`
 - `views/thanhtoan.ejs`
 
-### 5. Ngọc Phượng: Static Assets (8 tệp)
+### 5. Ngọc Phượng: Static Assets
 
 _Phụ trách: Quản lý tài nguyên tĩnh (hình ảnh upload)._
 
