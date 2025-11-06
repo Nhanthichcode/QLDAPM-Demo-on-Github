@@ -37,9 +37,7 @@ async function Default_Account() {
 }
 
 // Kết nối MongoDB và gọi tạo tài khoản
-var uri =
-  "mongodb+srv://khoinguyen12a5:admin123@cluster0.tce2s.mongodb.net/mohinhxe?retryWrites=true&w=majority&appName=Cluster0";
-mongoose
+var uri = mongoose
   .connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
