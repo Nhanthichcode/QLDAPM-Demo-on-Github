@@ -28,14 +28,13 @@
 
 ## 🛠️ Phân Công Công Việc (5 Thành Viên)
 
-### 1. Thành viên 1: Project Setup & Core (12 tệp)
+### 1. Trí Nhàn: Project Setup & Core (12 tệp)
 
 _Phụ trách: Thiết lập dự án, cấu hình server, middleware, và layout/trang chủ._
 
 - `index.js`
 - `package.json`
 - `package-lock.json`
-- `README.md`
 - `middleware/auth.js`
 - `routers/index.js`
 - `views/index.ejs`
@@ -45,7 +44,7 @@ _Phụ trách: Thiết lập dự án, cấu hình server, middleware, và layou
 - `views/error.ejs`
 - `views/huongdan.ejs`
 
-### 2. Thành viên 2: Module Authentication & User (9 tệp)
+### 2. Khôi Nguyên: Module Authentication & User (9 tệp)
 
 _Phụ trách: Logic và giao diện liên quan đến người dùng (đăng ký, đăng nhập, quản lý)._
 
@@ -59,7 +58,7 @@ _Phụ trách: Logic và giao diện liên quan đến người dùng (đăng k�
 - `views/taikhoan_sua.ejs`
 - `views/taikhoan_cuatoi.ejs`
 
-### 3. Thành viên 3: Module Product Management (13 tệp)
+### 3. Hữu Khang: Module Product Management (13 tệp)
 
 _Phụ trách: Logic và giao diện quản lý sản phẩm, hãng, và phân loại._
 
@@ -74,13 +73,13 @@ _Phụ trách: Logic và giao diện quản lý sản phẩm, hãng, và phân l
 - `views/sanpham_them.ejs`
 - `views/sanpham_sua.ejs`
 - `views/sanpham_chitiet.ejs`
-- `views/hangsanxuat.ejs`
-- `views/phanloai.ejs`
 
-### 4. Thành viên 4: Module Cart & Order (11 tệp)
+### 4. Thanh Phong: Module Cart & Order (11 tệp)
 
 _Phụ trách: Quy trình nghiệp vụ (giỏ hàng, thanh toán, hóa đơn)._
 
+- `views/hangsanxuat.ejs`
+- `views/phanloai.ejs`
 - `models/giohang.js`
 - `models/hoadon.js`
 - `routers/giohang.js`
@@ -88,15 +87,15 @@ _Phụ trách: Quy trình nghiệp vụ (giỏ hàng, thanh toán, hóa đơn)._
 - `routers/thanhtoan.js`
 - `views/giohang.ejs`
 - `views/thanhtoan.ejs`
+
+### 5. Ngọc Phượng: Static Assets (8 tệp)
+
+_Phụ trách: Quản lý tài nguyên tĩnh (hình ảnh upload)._
+
 - `views/camon.ejs`
 - `views/hoadon.ejs`
 - `views/hoadon_chitiet.ejs`
 - `views/hoadon_cuatoi.ejs`
-
-### 5. Thành viên 5: Static Assets (8 tệp)
-
-_Phụ trách: Quản lý tài nguyên tĩnh (hình ảnh upload)._
-
 - `public/uploads/1751675935050.webp`
 - `public/uploads/1751677063990.jpg`
 - `public/uploads/1751763220662.jpg`
