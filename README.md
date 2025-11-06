@@ -1,4 +1,4 @@
-# 📌 Quản Lý Dự Án Phần Mềm
+<!-- # 📌 Quản Lý Dự Án Phần Mềm
 
 Đây là dự án nhằm giúp sinh viên hoặc người mới học **làm quen với Git và GitHub** để dễ dàng quản lý, phát triển và cộng tác trong các dự án phần mềm — đặc biệt là các dự án website trong tương lai.
 
@@ -24,11 +24,11 @@
   - `git branch`, `git checkout`, `git merge`
 - Hiểu cách làm việc với **README**, **.gitignore**, **branch**, **pull request**, v.v.
 
----
+--- -->
 
 ## 🛠️ Phân Công Công Việc (5 Thành Viên)
 
-### 1. Trí Nhàn: Project Setup & Core (12 tệp)
+### 1. Trí Nhàn: Project Setup & Core
 
 _Phụ trách: Thiết lập dự án, cấu hình server, middleware, và layout/trang chủ._
 
@@ -44,7 +44,7 @@ _Phụ trách: Thiết lập dự án, cấu hình server, middleware, và layou
 - `views/error.ejs`
 - `views/huongdan.ejs`
 
-### 2. Khôi Nguyên: Module Authentication & User (9 tệp)
+### 2. Khôi Nguyên: Module Authentication & User
 
 _Phụ trách: Logic và giao diện liên quan đến người dùng (đăng ký, đăng nhập, quản lý)._
 
@@ -58,7 +58,7 @@ _Phụ trách: Logic và giao diện liên quan đến người dùng (đăng k�
 - `views/taikhoan_sua.ejs`
 - `views/taikhoan_cuatoi.ejs`
 
-### 3. Hữu Khang: Module Product Management (13 tệp)
+### 3. Hữu Khang: Module Product Management
 
 _Phụ trách: Logic và giao diện quản lý sản phẩm, hãng, và phân loại._
 
@@ -74,7 +74,7 @@ _Phụ trách: Logic và giao diện quản lý sản phẩm, hãng, và phân l
 - `views/sanpham_sua.ejs`
 - `views/sanpham_chitiet.ejs`
 
-### 4. Thanh Phong: Module Cart & Order (11 tệp)
+### 4. Thanh Phong: Module Cart & Order
 
 _Phụ trách: Quy trình nghiệp vụ (giỏ hàng, thanh toán, hóa đơn)._
 
@@ -88,7 +88,7 @@ _Phụ trách: Quy trình nghiệp vụ (giỏ hàng, thanh toán, hóa đơn)._
 - `views/giohang.ejs`
 - `views/thanhtoan.ejs`
 
-### 5. Ngọc Phượng: Static Assets (8 tệp)
+### 5. Ngọc Phượng: Static Assets
 
 _Phụ trách: Quản lý tài nguyên tĩnh (hình ảnh upload)._
 
