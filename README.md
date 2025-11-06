@@ -32,8 +32,13 @@
   B1: Kéo dự án về máy.
   B2: chạy lệnh " git branch " xem có đủ 2 nhánh main/None_Branch.
   B3: chạy lệnh " git checkout None_Branch " để chuyển sang bộ nhớ của nhóm.
-  B4: vào Source Control ở thanh bên trái và xem tên, vị trí của file theo từng phân công và thực hiện commit từng file theo thứ tự.
-  B5: sau khi commit xong thì chọn Push để đẩy code lên None_Branch.
+  B4 Quan trọng: Mở file "WebMoHinhXe_MongoDB_new.zip" và kéo thả tệp thuộc phân công của
+      mình vào các thư mục tương ứng trong dự án trên VsCode ( ví dụ: kéo file camon.ejs
+      từ Folder views trong "WebMoHinhXe_MongoDB_new.zip" sang Folder views trong dự án hiện
+      tại ).
+  B5: vào Source Control ở thanh bên trái và commit từng file theo dạng 'tên file - lệnh commit'
+     ( ví dụ: views - trang cảm ơn ).
+  B6: sau khi commit xong thì chọn Push để đẩy tất cả code lên None_Branch.
 ```
 
 ## 🛠️ Phân Công Công Việc (5 Thành Viên)
