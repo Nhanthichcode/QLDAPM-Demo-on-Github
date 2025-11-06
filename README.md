@@ -68,7 +68,7 @@ _Phụ trách: Logic và giao diện liên quan đến người dùng (đăng k�
 - `views/taikhoan_sua.ejs`
 - `views/taikhoan_cuatoi.ejs`
 
-### 3. Hữu Khang: Module Product Management
+### 3. Hữu Khang iu Knguyen: Module Product Management
 
 _Phụ trách: Logic và giao diện quản lý sản phẩm, hãng, và phân loại._
 
@@ -101,7 +101,7 @@ _Phụ trách: Quy trình nghiệp vụ (giỏ hàng, thanh toán, hóa đơn)._
 ### 5. Ngọc Phượng: Static Assets
 
 _Phụ trách: Quản lý tài nguyên tĩnh (hình ảnh upload)._
-
+- nguyên file `node_modules`
 - `views/camon.ejs`
 - `views/hoadon.ejs`
 - `views/hoadon_chitiet.ejs`
