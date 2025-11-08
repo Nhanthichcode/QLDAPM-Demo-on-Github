@@ -40,7 +40,7 @@
 2.  Mở thư mục đó trong VS Code.
 3.  Kéo dự án về máy bằng lệnh sau trong Terminal của VS Code:
     ```bash
-    git clone [https://github.com/Nhanthichcode/QLDAPM-Demo-on-Github.git](https://github.com/Nhanthichcode/QLDAPM-Demo-on-Github.git)
+    git clone https://github.com/Nhanthichcode/QLDAPM-Demo-on-Github.git
     ```
 4.  Sau khi clone xong, điều hướng vào thư mục dự án vừa kéo về (thay `"tên-thư-mục-vừa-clone"` bằng tên thư mục thực tế):
     ```bash
@@ -66,14 +66,14 @@
 
 1.  Mở file `WebMoHinhXe_MongoDB_new.zip`.
 2.  Kéo và thả các tệp tin thuộc phần công việc của bạn từ file zip vào các thư mục tương ứng trong dự án bạn đã clone trên VS Code.
-    * **Ví dụ:** Kéo file `camon.ejs` từ thư mục `views` trong `WebMoHinhXe_MongoDB_new.zip` sang thư mục `views` trong dự án hiện tại của bạn.
+    - **Ví dụ:** Kéo file `camon.ejs` từ thư mục `views` trong `WebMoHinhXe_MongoDB_new.zip` sang thư mục `views` trong dự án hiện tại của bạn.
 
 ### Bước 5: Commit các thay đổi
 
 1.  Vào mục **Source Control** (biểu tượng ba hình tròn nối với nhau) ở thanh bên trái của VS Code.
 2.  Commit từng file đã thay đổi hoặc thêm mới.
 3.  Đặt thông điệp commit theo định dạng: `'tên file - lệnh commit'`
-    * **Ví dụ:** `views - trang cảm ơn`
+    - **Ví dụ:** `views - trang cảm ơn`
 
 ### Bước 6: Đẩy mã nguồn lên GitHub
 
@@ -144,6 +144,7 @@ _Phụ trách: Quy trình nghiệp vụ (giỏ hàng, thanh toán, hóa đơn)._
 ### 5. Ngọc Phượng: Static Assets
 
 _Phụ trách: Quản lý tài nguyên tĩnh (hình ảnh upload)._
+
 - nguyên file `node_modules`
 - `views/camon.ejs`
 - `views/hoadon.ejs`
