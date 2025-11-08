@@ -26,20 +26,58 @@
 
 --- -->
 
-- Mỗi khi thực hiện bất kì thay đổi nào trong dự án việc đầy tiên cần làm là chạy lệnh " git pull ".
+# Hướng dẫn quy trình làm việc Git/GitHub
 
-```
-  B1: Kéo dự án về máy.
-  B2: chạy lệnh " git branch " xem có đủ 2 nhánh main/None_Branch.
-  B3: chạy lệnh " git checkout None_Branch " để chuyển sang bộ nhớ của nhóm.
-  B4 Quan trọng: Mở file "WebMoHinhXe_MongoDB_new.zip" và kéo thả tệp thuộc phân công của
-      mình vào các thư mục tương ứng trong dự án trên VsCode ( ví dụ: kéo file camon.ejs
-      từ Folder views trong "WebMoHinhXe_MongoDB_new.zip" sang Folder views trong dự án hiện
-      tại ).
-  B5: vào Source Control ở thanh bên trái và commit từng file theo dạng 'tên file - lệnh commit'
-     ( ví dụ: views - trang cảm ơn ).
-  B6: sau khi commit xong thì chọn Push để đẩy tất cả code lên None_Branch.
-```
+**Quan trọng:** Mỗi khi thực hiện bất kỳ thay đổi nào trong dự án, việc đầu tiên cần làm là chạy lệnh `git pull` để cập nhật mã nguồn mới nhất từ kho chứa chung.
+
+---
+
+## Các bước làm việc với dự án
+
+### Bước 1: Kéo dự án về máy lần đầu
+
+1.  Tạo một thư mục rỗng trên máy tính của bạn.
+2.  Mở thư mục đó trong VS Code.
+3.  Kéo dự án về máy bằng lệnh sau trong Terminal của VS Code:
+    ```bash
+    git clone [https://github.com/Nhanthichcode/QLDAPM-Demo-on-Github.git](https://github.com/Nhanthichcode/QLDAPM-Demo-on-Github.git)
+    ```
+4.  Sau khi clone xong, điều hướng vào thư mục dự án vừa kéo về (thay `"tên-thư-mục-vừa-clone"` bằng tên thư mục thực tế):
+    ```bash
+    cd "tên-thư-mục-vừa-clone"
+    ```
+
+### Bước 2: Kiểm tra nhánh làm việc
+
+1.  Chạy lệnh sau để xem các nhánh hiện có trong dự án:
+    ```bash
+    git branch
+    ```
+2.  Đảm bảo rằng bạn thấy có hai nhánh chính: `main` và `None_Branch`.
+
+### Bước 3: Chuyển sang nhánh làm việc của nhóm
+
+1.  Chuyển sang nhánh `None_Branch` để làm việc:
+    ```bash
+    git checkout None_Branch
+    ```
+
+### Bước 4: Tích hợp mã nguồn cá nhân (Quan trọng)
+
+1.  Mở file `WebMoHinhXe_MongoDB_new.zip`.
+2.  Kéo và thả các tệp tin thuộc phần công việc của bạn từ file zip vào các thư mục tương ứng trong dự án bạn đã clone trên VS Code.
+    * **Ví dụ:** Kéo file `camon.ejs` từ thư mục `views` trong `WebMoHinhXe_MongoDB_new.zip` sang thư mục `views` trong dự án hiện tại của bạn.
+
+### Bước 5: Commit các thay đổi
+
+1.  Vào mục **Source Control** (biểu tượng ba hình tròn nối với nhau) ở thanh bên trái của VS Code.
+2.  Commit từng file đã thay đổi hoặc thêm mới.
+3.  Đặt thông điệp commit theo định dạng: `'tên file - lệnh commit'`
+    * **Ví dụ:** `views - trang cảm ơn`
+
+### Bước 6: Đẩy mã nguồn lên GitHub
+
+1.  Sau khi commit xong tất cả các thay đổi của bạn, chọn **Push** để đẩy toàn bộ mã nguồn đã commit lên nhánh `None_Branch` trên GitHub.
 
 ## 🛠️ Phân Công Công Việc (5 Thành Viên)
 
